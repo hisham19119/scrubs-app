@@ -1,0 +1,10 @@
+{
+  "files": {
+    "main.js": "/scrubs-app/static/js/main.85d643db.js",
+    "index.html": "/scrubs-app/index.html",
+    "main.85d643db.js.map": "/scrubs-app/static/js/main.85d643db.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.85d643db.js"
+  ]
+}
