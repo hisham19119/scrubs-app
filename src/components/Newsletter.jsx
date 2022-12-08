@@ -1,6 +1,7 @@
 import SendIcon from '@mui/icons-material/Send';
 import styled from "styled-components";
 import { Iphone } from "../responsive";
+import { mobile } from "../responsive";
 
 const Container = styled.div`
 height: 60vh;
@@ -9,10 +10,12 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+${mobile({ width: "100%" })}
 `;
 const Title = styled.h1`
 font-size: 70px;
 margin-bottom: 20px;
+${mobile({ fontSize: "60px"})}
 `;
 
 const Desc = styled.div`

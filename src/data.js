@@ -2,7 +2,7 @@ export const sliderItems = [
     {
     id: 1,
     img: "https://cdn.shopify.com/s/files/1/0025/6986/3279/products/Scrubs_MANDALA_ECOM_JV_Top1_CaribbeanBlue_0914_600x.jpg?v=1622350519",
-    title: "AUTUMN COLLECTION",
+    title: "AUTUMN STOCK",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "b0d3dc",
     },
@@ -16,7 +16,7 @@ export const sliderItems = [
     {
     id: 3,
     img: "https://cdn.shopify.com/s/files/1/0025/6986/3279/products/Scrubs_Jogger_Pants_BB_RED_TOP1_Full-Body-Front-Tucked-Out_822.jpg?v=1625175668",
-    title: "SPRING COLLECTION",
+    title: "SPRING STYLE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 30% OFF FOR NEW ARRIVALS.",
     bg: "f5c7c7",
     },

@@ -4,6 +4,8 @@ import { useState } from "react";
 import styled from "styled-components";
 import { sliderItems } from "../data";
 import { Iphone } from "../responsive";
+import {mobile } from "../responsive";
+
 import { Link } from 'react-router-dom';
 
 const Container = styled.div`
@@ -52,6 +54,8 @@ background-color: #${(props) => props.bg};
 const ImgContainer = styled.div`
 height: 100%;
 flex: 1;
+${Iphone({ width: "100vw" })};
+${mobile({ width: "100vw" })}
 `;
 
 const Image = styled.img`
@@ -61,11 +65,14 @@ height: 80%;
 const InfoContainer = styled.div`
 flex: 1;
 padding: 50px;
-
+${Iphone({ display:"none" })};
+${mobile({ display:"none" })}
 `;
 
 const Title = styled.h1`
 font-size: 70px;
+${Iphone({ display:"none" })};
+${mobile({ display:"none" })}
 `;
 
 const Desc = styled.p`
@@ -73,6 +80,9 @@ margin: 50px 0px;
 font-size: 20px;
 font-weight: 500;
 letter-spacing: 3px;
+${Iphone({ display:"none" })};
+${mobile({ display:"none" , overrflow:"hidden"})}
+
 `;
 const Button = styled.button`
 padding: 10px;
@@ -84,6 +94,8 @@ cursor: pointer;
   letter-spacing: 2px;
 }
 transition : all 0.5s ease;
+${Iphone({ display:"none" })};
+${mobile({ display:"none" })}
 `;
 
 const Shop = styled(Link)`
